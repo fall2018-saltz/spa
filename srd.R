@@ -6,5 +6,5 @@ arrestsinus<- USArrests
 rownames(clean) <- as.vector(clean[,"stateName"])
 
 #merging 2 dataframes
-mergeDataframe <- merge(clean, arrestsinus, by = "row.names")
-mergeDataframe
+mergeData <- merge(clean, arrestsinus, by = "row.names")
+mergeData
