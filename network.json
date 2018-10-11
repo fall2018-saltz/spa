@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "srd.R"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "srd.R"
         }
     ],
-    "updated_at": "2018-10-11 18:54:32",
+    "updated_at": "2018-10-11 18:55:31",
     "url": "https://github.com/fall2018-saltz/spa"
 }
