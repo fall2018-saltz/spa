@@ -43,6 +43,16 @@
             ],
             "source": "srd.R",
             "target": "csvfile8.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script72.R"
         }
     ],
     "nodes": [
@@ -71,6 +81,6 @@
             "name": "script72.R"
         }
     ],
-    "updated_at": "2018-10-11 19:09:53",
+    "updated_at": "2018-10-11 19:10:18",
     "url": "https://github.com/fall2018-saltz/spa"
 }
