@@ -48,10 +48,15 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "spachika",
             "desc": "",
-            "name": "srd.R"
+            "name": "srd.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "csvfile8.csv"
         }
     ],
-    "updated_at": "2018-10-11 18:55:31",
+    "updated_at": "2018-10-11 19:05:55",
     "url": "https://github.com/fall2018-saltz/spa"
 }
