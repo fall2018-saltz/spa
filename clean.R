@@ -1,7 +1,7 @@
 
 clean <- function(sta){
 #Removing First row and Last Row
-
+#Also remove first four columns
 
 states <- states[,-c(1:4)]
 states <- states[c(-1,-53),]
