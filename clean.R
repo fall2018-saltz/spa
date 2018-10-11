@@ -1,7 +1,8 @@
 
 clean <- function(sta){
-# removes the first row and the last row, with state = USA and state = Puerto rico commonwealth
-# and the first four columns SUMLEV REGION DIVISION STATE
+#Removing First row and Last Row
+
+
 states <- states[,-c(1:4)]
 states <- states[c(-1,-53),]
 
