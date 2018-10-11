@@ -37,7 +37,7 @@
         {
             "ports": [
                 {
-                    "output": "mergeDate",
+                    "output": "mergeData",
                     "type": "csv"
                 }
             ],
@@ -67,6 +67,6 @@
             "name": "csvfile8.csv"
         }
     ],
-    "updated_at": "2018-10-11 19:08:23",
+    "updated_at": "2018-10-11 19:09:29",
     "url": "https://github.com/fall2018-saltz/spa"
 }
