@@ -7,10 +7,10 @@ sta <- sta[,-c(1:4)]
 sta <- sta[c(-1,-53),]
 
 # replacing the names of the columns in the dataframe.
-colnames(states)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "percentOver18")
+colnames(sta)[c(1,2,3,4)] <- c("stateName", "population", "populationOver18", "percentOver18")
 #returns the clean dataframe
-  return(states)
+  return(sta)
 }
 
-clean_data <- clean_data(raw_data)
-str(clean_data)
+clean<- clean(raw_data)
+str(clean)
