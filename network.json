@@ -183,6 +183,16 @@
             ],
             "source": "csvfile8.csv",
             "target": "script7117.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_1",
+                    "type": "png"
+                }
+            ],
+            "source": "script7117.R",
+            "target": "scatter_1.png"
         }
     ],
     "nodes": [
@@ -270,6 +280,6 @@
             "name": "scatter_1.png"
         }
     ],
-    "updated_at": "2018-10-23 06:29:09",
+    "updated_at": "2018-10-23 06:29:23",
     "url": "https://github.com/fall2018-saltz/spa"
 }
