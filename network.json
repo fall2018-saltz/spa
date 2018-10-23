@@ -163,6 +163,16 @@
             ],
             "source": "script5062.R",
             "target": "bar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar2",
+                    "type": "png"
+                }
+            ],
+            "source": "script5062.R",
+            "target": "bar2.png"
         }
     ],
     "nodes": [
@@ -241,6 +251,6 @@
             "name": "bar2.png"
         }
     ],
-    "updated_at": "2018-10-23 06:22:15",
+    "updated_at": "2018-10-23 06:22:35",
     "url": "https://github.com/fall2018-saltz/spa"
 }
