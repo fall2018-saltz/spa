@@ -77,10 +77,12 @@
             "name": "csvfile8.csv"
         },
         {
+            "assigned_to": "spachika",
             "desc": "",
-            "name": "script72.R"
+            "name": "script72.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:10:18",
+    "updated_at": "2018-10-11 19:51:21",
     "url": "https://github.com/fall2018-saltz/spa"
 }
