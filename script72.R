@@ -1,23 +1,10 @@
 
 #importing library for ggplot2
-
-
-library("ggplot2")
-#using ggplot() to generate a histogram 
-# using geom_histogram() function  to group the data 
-#into bins. Here, we are using 500,000 as binwidth because the population is in millions.
-myPlotPop <- ggplot(mergeDataframe, aes(x=population))
-myPlotPop <- myPlotPop + geom_histogram(binwidth = 500000)
-myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
-myPlotPop
-
-
-#importing library for ggplot2
 library("ggplot2")
 #using ggplot() to generate a histogram with population on the x-axis from the mergeDataframe
 #dataset. We are using geom_histogram() function with binwidth attribute to group the data 
 #into bins. Here, we are using 500,000 as binwidth because the population is in millions.
-myPlotPop <- ggplot(mergeDataframe, aes(x=population))
-myPlotPop <- myPlotPop + geom_histogram(binwidth = 500000)
-myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
-myPlotPop
+my_Plot <- ggplot(mergeData, aes(x=population))
+my_Plot <- myPlotPop + geom_histogram(binwidth = 500000)
+my_Plot <- myPlotPop + ggtitle("Histogram of Population")
+my_Plot
