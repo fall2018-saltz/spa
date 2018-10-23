@@ -116,8 +116,11 @@
         },
         {
             "name": "plot2.png"
+        },
+        {
+            "name": "plot3.png"
         }
     ],
-    "updated_at": "2018-10-23 05:33:07",
+    "updated_at": "2018-10-23 05:33:18",
     "url": "https://github.com/fall2018-saltz/spa"
 }
