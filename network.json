@@ -123,6 +123,16 @@
             ],
             "source": "csvfile8.csv",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot1.png"
         }
     ],
     "nodes": [
@@ -186,6 +196,6 @@
             "name": "boxplot1.png"
         }
     ],
-    "updated_at": "2018-10-23 06:08:45",
+    "updated_at": "2018-10-23 06:09:03",
     "url": "https://github.com/fall2018-saltz/spa"
 }
