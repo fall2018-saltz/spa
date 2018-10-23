@@ -10,7 +10,8 @@ boxplot1 <- boxplot1 + ggtitle("Boxplot for Population")
 boxplot1
 
 #using ggplot() to generate the boxplot. 
-myPlotPop3 <- ggplot(mergeDataframe, aes(x=factor(0),y=Murder))
-myPlotPop3 <- myPlotPop3 + geom_boxplot()
-myPlotPop3 <- myPlotPop3 + ggtitle("Boxplot of Murder")
-myPlotPop3
+
+boxplot2 <- ggplot(mergeData, aes(x=factor(0),y=Murder))
+boxplot2 <- boxplot2 + geom_boxplot()
+boxplot2 <- boxplot2 + ggtitle("Boxplot for Murder")
+boxplot2
