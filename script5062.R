@@ -2,9 +2,11 @@
 #importing library for ggplot2 to generate barcharts
 library("ggplot2")
 #7)	Calculate the number of murders per state
-mergeDataframe$numMurders <- as.integer(mergeDataframe$population*mergeDataframe$Murder/100000)
-murdersPerState <- mergeDataframe[,c(2,3,4,10)]
-murdersPerState
+
+
+mergeData$numMurders <- as.integer(mergeData$population*mergeData$Murder/100000)
+murderspereachState <- mergeData[,c(2,3,4,10)]
+murdersPereachState
 
 #generating a barchart for number of murders per state using ggplot() and aes() to 
 #visualize the graph
