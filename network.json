@@ -153,6 +153,16 @@
             ],
             "source": "csvfile8.csv",
             "target": "script5062.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar1",
+                    "type": "png"
+                }
+            ],
+            "source": "script5062.R",
+            "target": "bar1.png"
         }
     ],
     "nodes": [
@@ -231,6 +241,6 @@
             "name": "bar2.png"
         }
     ],
-    "updated_at": "2018-10-23 06:21:44",
+    "updated_at": "2018-10-23 06:22:15",
     "url": "https://github.com/fall2018-saltz/spa"
 }
