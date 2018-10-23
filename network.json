@@ -63,6 +63,16 @@
             ],
             "source": "csvfile8.csv",
             "target": "script7125.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myplot",
+                    "type": "png"
+                }
+            ],
+            "source": "script72.R",
+            "target": "plot4320.png"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "plot4320.png"
         }
     ],
-    "updated_at": "2018-10-23 04:06:17",
+    "updated_at": "2018-10-23 04:06:39",
     "url": "https://github.com/fall2018-saltz/spa"
 }
