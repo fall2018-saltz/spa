@@ -1,10 +1,10 @@
 
 #using ggplot() to generate a histogram 
 # using 1 as binwidth because the murder rate does not have large numbers.
-myPlotPop1 <- ggplot(mergeDataframe, aes(x=Murder))
-myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
-myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
-myPlotPop1
+Plot1 <- ggplot(mergeData, aes(x=Murder))
+Plot1 <- Plot1 + geom_histogram(binwidth=1)
+Plot1 <- Plot1 + ggtitle("Histogram of Murder")
+Plot1
 
 #using ggplot() to generate a histogram with Assault on the x-axis from the mergeDataframe
 #dataset. we are also using ggtitle() to display the title of the graph.
