@@ -16,12 +16,12 @@ bar1 <- bar1 + geom_col()
 bar1 <- bar1 + ggtitle("Bar chart for murders per each state")
 bar1
 
-#generating a barchart to rotate text on x-axis using theme() and aes() to visualize the graph
-barChart2 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
-barChart2 <- barChart2 + geom_col()
-barChart2 <- barChart2 + ggtitle("Total Murders")
-barChart2 <- barChart2 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-barChart2
+#9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
+bar2 <- ggplot(mergeData, aes(x=stateName, y=numMurders))
+bar2 <- bar2 + geom_col()
+bar2 <- bar2 + ggtitle("Total Murders")
+bar2 <- bar2 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+bar2
 
 #generating a barchart of sorted murder rate using ggplot() and aes() to visualize the graph
 barChart3 <- ggplot(mergeDataframe, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
