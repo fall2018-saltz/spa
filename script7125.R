@@ -3,7 +3,7 @@
 # using 1 as binwidth because the murder rate does not have large numbers.
 Plot1 <- ggplot(mergeData, aes(x=Murder))
 Plot1 <- Plot1 + geom_histogram(binwidth=1)
-Plot1 <- Plot1 + ggtitle("Histogram of Murder")
+Plot1 <- Plot1 + ggtitle("Histogram for Murder")
 Plot1
 
 #using ggplot() to generate a histogram with Assault as x axis variable
