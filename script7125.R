@@ -6,8 +6,8 @@ Plot1 <- Plot1 + geom_histogram(binwidth=1)
 Plot1 <- Plot1 + ggtitle("Histogram of Murder")
 Plot1
 
-#using ggplot() to generate a histogram with Assault on the x-axis from the mergeDataframe
-#dataset. we are also using ggtitle() to display the title of the graph.
+#using ggplot() to generate a histogram with Assault as x axis variable
+# we are also using ggtitle() to display the title of the graph.
 myPlotPop2 <- ggplot(mergeDataframe, aes(x=Assault))
 myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=10)
 myPlotPop2 <- myPlotPop2 + ggtitle("Histogram of Assault")
