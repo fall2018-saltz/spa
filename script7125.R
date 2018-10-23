@@ -13,12 +13,11 @@ Plot2 <- Plot2 + geom_histogram(binwidth=10)
 Plot2 <- Plot2 + ggtitle("Histogram of Assault")
 Plot2
 
-#using ggplot() to generate a histogram with Rape on the x-axis from the mergeDataframe
-#dataset.
-myPlotPop3 <- ggplot(mergeDataframe, aes(x=Rape))
-myPlotPop3 <- myPlotPop3 + geom_histogram(binwidth=1)
-myPlotPop3 <- myPlotPop3 + ggtitle("Histogram of Rape")
-myPlotPop3
+#using ggplot() to generate a histogram with Rape as x axis variable
+Plot3 <- ggplot(mergeData, aes(x=Rape))
+Plot3 <- Plot3 + geom_histogram(binwidth=1)
+Plot3 <- Plot3 + ggtitle("Histogram of Rape")
+Plot3
 
 #using ggplot() to generate a histogram with UrbanPop on the x-axis from the mergeDataframe
 #dataset.
