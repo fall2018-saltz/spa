@@ -8,10 +8,10 @@ Plot1
 
 #using ggplot() to generate a histogram with Assault as x axis variable
 # we are also using ggtitle() to display the title of the graph.
-myPlotPop2 <- ggplot(mergeDataframe, aes(x=Assault))
-myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=10)
-myPlotPop2 <- myPlotPop2 + ggtitle("Histogram of Assault")
-myPlotPop2
+Plot2 <- ggplot(mergeData, aes(x=Assault))
+Plot2 <- Plot2 + geom_histogram(binwidth=10)
+Plot2 <- Plot2 + ggtitle("Histogram of Assault")
+Plot2
 
 #using ggplot() to generate a histogram with Rape on the x-axis from the mergeDataframe
 #dataset.
