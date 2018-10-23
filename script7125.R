@@ -24,8 +24,8 @@ Plot3
 
 #using ggplot() to generate a histogram with UrbanPop as x axis variable
 Plot4 <- ggplot(mergeData, aes(x=UrbanPop))
-Plot4 <- myPlotPop4 + geom_histogram(binwidth=2)
-Plot4 <- myPlotPop4 + ggtitle("Histogram for UrbanPop")
+Plot4 <- Plot4 + geom_histogram(binwidth=2)
+Plot4 <- Plot4 + ggtitle("Histogram for UrbanPop")
 Plot4
 
 #we have to adjust the binwidth attribute in the geom_histogram() function to generate histograms which look same because variables on x-axis  have different amount of data. 
