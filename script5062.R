@@ -9,10 +9,12 @@ murderspereachState <- mergeData[,c(2,3,4,10)]
 murdersPereachState
 
 #generating a barchart for number of murders per state 
-barChart1 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
-barChart1 <- barChart1 + geom_col()
-barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
-barChart1
+
+
+bar1 <- ggplot(mergeData, aes(x=stateName, y=numMurders))
+bar1 <- bar1 + geom_col()
+bar1 <- bar1 + ggtitle("Bar chart for murders per each state")
+bar1
 
 #generating a barchart to rotate text on x-axis using theme() and aes() to visualize the graph
 barChart2 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
