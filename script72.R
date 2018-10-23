@@ -5,6 +5,6 @@ library("ggplot2")
 #dataset. We are using geom_histogram() function with binwidth attribute to group the data 
 #into bins. Here, we are using 500,000 as binwidth because the population is in millions.
 my_Plot <- ggplot(mergeData, aes(x=population))
-my_Plot <- myPlotPop + geom_histogram(binwidth = 500000)
-my_Plot <- myPlotPop + ggtitle("Histogram of Population")
+my_Plot <- my_Plot + geom_histogram(binwidth = 500000)
+my_Plot <- my_Plot + ggtitle("Histogram of Population")
 my_Plot
