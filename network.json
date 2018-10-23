@@ -113,6 +113,16 @@
             ],
             "source": "script7125.R",
             "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -167,10 +177,12 @@
             "name": "plot4.png"
         },
         {
+            "assigned_to": "spachika",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-23 05:36:32",
+    "updated_at": "2018-10-23 06:08:02",
     "url": "https://github.com/fall2018-saltz/spa"
 }
