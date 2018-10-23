@@ -25,6 +25,4 @@ Plot4 <- myPlotPop4 + geom_histogram(binwidth=2)
 Plot4 <- myPlotPop4 + ggtitle("Histogram for UrbanPop")
 Plot4
 
-#to generate histograms so that they all look the same, we have to adjust the binwidth
-#attribute in the geom_histogram() function because different variables on x-axis will have 
-#different amount of data. So, we have to graoup the data into bins accordingly.
+#we have to adjust the binwidth attribute in the geom_histogram() function to generate histograms which look same because different variables on x-axis  have different amount of data. So, we have to graoup the data into bins accordingly.
