@@ -82,7 +82,7 @@
                 }
             ],
             "source": "script7125.R",
-            "target": "plot4.png"
+            "target": "plot1.png"
         }
     ],
     "nodes": [
@@ -131,9 +131,9 @@
             "name": "plot3.png"
         },
         {
-            "name": "plot4.png"
+            "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-23 05:34:01",
+    "updated_at": "2018-10-23 05:34:33",
     "url": "https://github.com/fall2018-saltz/spa"
 }
