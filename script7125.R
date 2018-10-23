@@ -1,4 +1,7 @@
 
+#importing library for ggplot2
+library("ggplot2")
+
 #using ggplot() to generate a histogram 
 # using 1 as binwidth because the murder rate does not have large numbers.
 Plot1 <- ggplot(mergeData, aes(x=Murder))
