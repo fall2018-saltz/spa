@@ -173,6 +173,16 @@
             ],
             "source": "script5062.R",
             "target": "bar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script7117.R"
         }
     ],
     "nodes": [
@@ -251,10 +261,12 @@
             "name": "bar2.png"
         },
         {
+            "assigned_to": "spachika",
             "desc": "",
-            "name": "script7117.R"
+            "name": "script7117.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-23 06:26:08",
+    "updated_at": "2018-10-23 06:28:30",
     "url": "https://github.com/fall2018-saltz/spa"
 }
