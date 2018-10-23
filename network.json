@@ -67,7 +67,7 @@
         {
             "ports": [
                 {
-                    "output": "myplot",
+                    "output": "my_Plot",
                     "type": "png"
                 }
             ],
@@ -110,6 +110,6 @@
             "name": "plot4320.png"
         }
     ],
-    "updated_at": "2018-10-23 04:06:39",
+    "updated_at": "2018-10-23 04:07:09",
     "url": "https://github.com/fall2018-saltz/spa"
 }
