@@ -8,8 +8,7 @@ mergeData$numMurders <- as.integer(mergeData$population*mergeData$Murder/100000)
 murderspereachState <- mergeData[,c(2,3,4,10)]
 murdersPereachState
 
-#generating a barchart for number of murders per state using ggplot() and aes() to 
-#visualize the graph
+#generating a barchart for number of murders per state 
 barChart1 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
 barChart1 <- barChart1 + geom_col()
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
