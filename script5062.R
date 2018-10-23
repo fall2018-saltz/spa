@@ -5,8 +5,8 @@ library("ggplot2")
 
 
 mergeData$numMurders <- as.integer(mergeData$population*mergeData$Murder/100000)
-murderspereachState <- mergeData[,c(2,3,4,10)]
-murdersPereachState
+murdersPerState <- mergeData[,c(2,3,4,10)]
+murdersPerState
 
 #generating a barchart for number of murders per state 
 
