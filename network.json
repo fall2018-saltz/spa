@@ -1,0 +1,285 @@
+{
+    "collaborators": [
+        "spachika"
+    ],
+    "created_at": "2018-10-11 17:37:46",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "srd.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "srd.R",
+            "target": "csvfile8.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script72.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script7125.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "my_Plot",
+                    "type": "png"
+                }
+            ],
+            "source": "script72.R",
+            "target": "plot4320.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "script7125.R",
+            "target": "plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "script7125.R",
+            "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "script7125.R",
+            "target": "plot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Plot4",
+                    "type": "png"
+                }
+            ],
+            "source": "script7125.R",
+            "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script5062.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar1",
+                    "type": "png"
+                }
+            ],
+            "source": "script5062.R",
+            "target": "bar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar2",
+                    "type": "png"
+                }
+            ],
+            "source": "script5062.R",
+            "target": "bar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeData",
+                    "type": "csv"
+                }
+            ],
+            "source": "csvfile8.csv",
+            "target": "script7117.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_1",
+                    "type": "png"
+                }
+            ],
+            "source": "script7117.R",
+            "target": "scatter_1.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "spachika",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "srd.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "csvfile8.csv"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "script72.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "script7125.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot4320.png"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
+        },
+        {
+            "name": "plot3.png"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot4.png"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "script5062.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "bar1.png"
+        },
+        {
+            "name": "bar2.png"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "script7117.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter_1.png"
+        }
+    ],
+    "updated_at": "2018-10-23 06:29:23",
+    "url": "https://github.com/fall2018-saltz/spa"
+}
